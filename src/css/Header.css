@@ -1,0 +1,53 @@
+body{
+  background: #e1e1e1;
+}
+.navbar{
+  width: 100%;
+  background: #444;
+  overflow: hidden;
+}
+.navbar-inner{
+  width: 90%;
+  min-width: 960px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 13px;
+  overflow: hidden;
+}
+a{
+	text-decoration: none;
+}
+img{
+  height: auto;
+  max-width: 100%;
+  border: 0;
+}
+.logo{
+  float: left;
+  display: block;
+  width: 120px;
+  padding: 3px 20px;
+  height: 28px;
+}
+
+nav{
+  float: right;
+  overflow: hidden;
+}
+nav li {
+  float: left;
+
+}
+nav li>a{
+  padding: 10px 15px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #ccc;
+
+}
+nav li>a:hover{
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer;
+}
